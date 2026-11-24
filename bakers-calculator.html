@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baker’s Percentage Calculator | BreadCraftScope</title>
+<meta name="description" content="Free baker’s percentage calculator: enter flour weight and hydration to get water, salt and yeast or sourdough starter in grams.">
+<link rel="canonical" href="https://breadcraftscope.com/bakers-calculator">
+<meta property="og:site_name" content="BreadCraftScope">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Baker’s Percentage Calculator">
+<meta property="og:description" content="Free baker’s percentage calculator: enter flour weight and hydration to get water, salt and yeast or sourdough starter in grams.">
+<meta property="og:url" content="https://breadcraftscope.com/bakers-calculator">
+<meta property="og:image" content="https://breadcraftscope.com/assets/photos/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script src="/assets/ads.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Baker’s Percentage Calculator","url":"https://breadcraftscope.com/bakers-calculator","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><div class="wrap"><span>Simple bread recipes and baking know-how.</span><span>Flour, water, time — and a little patience.</span></div></div>
+<header class="site"><div class="wrap">
+<a class="logo" href="/" aria-label="BreadCraftScope home"><span class="mark">B.</span><span class="name">BreadCraftScope</span></a>
+<nav class="primary" aria-label="Primary"><a href="/">Home</a><a href="/bread-basics/">Bread Basics</a><a href="/easy-recipes/">Easy Recipes</a><a href="/sourdough/">Sourdough</a><a href="/troubleshooting/">Troubleshooting &amp; Storage</a><a href="/bakers-calculator" class="on" aria-current="page">Calculator</a></nav>
+<a class="search-link" href="/guides"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Search recipes</a>
+</div></header>
+<main id="main">
+<div class="wrap" style="max-width:900px"><div class="pagehead"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Baker’s calculator</span></nav>
+<span class="eyebrow">Free tool</span><h1>Baker’s percentage calculator</h1><p>Bakers write recipes as percentages of the flour weight. Enter your flour and percentages and get every ingredient in grams.</p></div>
+<div id="calc" style="display:flex;flex-direction:column;gap:24px;padding-bottom:40px">
+<div class="calc">
+<div class="f"><label for="c-flour">Flour (g)</label><input id="c-flour" type="number" min="0" value="500" inputmode="decimal"></div>
+<div class="f"><label for="c-hyd">Hydration (% water)</label><input id="c-hyd" type="number" min="0" max="120" value="70" inputmode="decimal"></div>
+<div class="f"><label for="c-salt">Salt (%)</label><input id="c-salt" type="number" min="0" max="5" step="0.1" value="2" inputmode="decimal"></div>
+<div class="f"><label for="c-type">Leavening</label><select id="c-type"><option value="yeast">Instant yeast</option><option value="sourdough">Sourdough starter</option></select></div>
+<div class="f"><label for="c-yeast">Yeast or starter (%)</label><input id="c-yeast" type="number" min="0" max="50" step="0.1" value="1" inputmode="decimal"></div>
+</div>
+<div class="calc-out" aria-live="polite"><table><tbody>
+<tr><td>Flour</td><td id="o-flour">500 g</td></tr><tr><td>Water</td><td id="o-water">350 g</td></tr><tr><td>Salt</td><td id="o-salt">10 g</td></tr><tr><td id="o-yeast-l">Instant yeast</td><td id="o-yeast">5 g</td></tr><tr class="total"><td>Total dough</td><td id="o-total">865 g</td></tr>
+</tbody></table></div>
+<div class="legal" style="padding:0">
+<h2>How baker’s percentages work</h2>
+<p>Flour is always 100%. Every other ingredient is a percentage of the flour weight. A dough with 500 g flour and 350 g water is 70% hydration.</p>
+<h2>Typical ranges</h2>
+<ul><li>Sandwich bread: 60–65% hydration</li><li>Rustic and no-knead loaves: 70–78%</li><li>Focaccia: 75–85%</li><li>Pizza: 60–70%</li><li>Salt: about 1.8–2.2%</li><li>Instant yeast: 0.2% for long, slow rises up to about 1.5% for same-day breads</li><li>Sourdough starter: commonly 10–25%</li></ul>
+<p>Note: if you use a lot of sourdough starter, remember it also contains flour and water, so the true hydration is slightly different.</p>
+</div></div></div>
+</main>
+<footer class="site"><div class="wrap">
+<div class="cols">
+<div class="col"><span class="fname">BreadCraftScope</span><p>Simple, reliable bread recipes and baking guides for home bakers.</p><a class="mail" href="mailto:hello@breadcraftscope.com">hello@breadcraftscope.com</a></div>
+<div class="col"><strong>Categories</strong><a href="/bread-basics/">Bread Basics</a><a href="/easy-recipes/">Easy Recipes</a><a href="/sourdough/">Sourdough</a><a href="/troubleshooting/">Troubleshooting &amp; Storage</a><a href="/bakers-calculator">Baker’s Calculator</a></div>
+<div class="col"><strong>Useful links</strong><a href="/about">About Us</a><a href="/editorial-policy">Editorial Policy</a><a href="/contact">Contact</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms">Terms of Use</a></div>
+<div class="col"><strong>Popular</strong><a href="/easy-recipes/no-knead-bread">No-knead bread</a><a href="/sourdough/sourdough-starter-from-scratch">Sourdough starter</a><a href="/easy-recipes/easy-focaccia">Focaccia</a><a href="/easy-recipes/pizza-dough">Pizza dough</a><a href="/troubleshooting/why-is-my-bread-dense">Dense bread</a><a href="/bread-basics/how-yeast-works">Yeast</a></div>
+</div>
+<div class="bottom"><span>© 2026 BreadCraftScope. All rights reserved.</span><span>Photos from Unsplash. Happy baking.</span></div>
+</div></footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
