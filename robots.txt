@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://breadcraftscope.com/sitemap.xml
+Sitemap: https://breadscopecraft.com/sitemap.xml
