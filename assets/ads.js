@@ -14,6 +14,8 @@
 window.EBB_ADS = {
   enabled: false,
   scripts: [
+    'https://ejs2.mowplayer.com/265318551127/mow.js',
+    'https://ejs.mowplayer.com/js/player/mX4rWFW3qD.js',
     // 'https://securepubads.g.doubleclick.net/tag/js/gpt.js',
     // 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX',
   ],
