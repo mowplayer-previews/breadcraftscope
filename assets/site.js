@@ -1,4 +1,4 @@
-/* BreadCraftScope — recipe scaler, unit switch, kitchen converter, baker's calculator, guide search */
+/* BreadScopeCraft — recipe scaler, unit switch, kitchen converter, baker's calculator, guide search */
 (function () {
   function fmt(n) { return n >= 100 ? Math.round(n) : n >= 10 ? Math.round(n * 2) / 2 : Math.round(n * 10) / 10; }
 

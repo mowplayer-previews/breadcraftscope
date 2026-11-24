@@ -1,5 +1,5 @@
 /*
- * BreadCraftScope — ads setup
+ * BreadScopeCraft — ads setup
  * This file loads in the <head> of EVERY page. Edit only this file to change ad code site-wide.
  *
  * 1) Add your ad scripts (GPT, Prebid, Mowplayer, AdSense...) to `scripts` below.
